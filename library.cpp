@@ -5,10 +5,17 @@ int main()
 {
     int id1,id2,id3;
     string title1,title2,title3;
+<<<<<<< HEAD
 //book1
     cout<<"Enter Book 1 ID:";
     cin>>id1;
 
+=======
+
+    cout<<"Enter Book 1 ID:";
+    cin>>id1;
+//book1
+>>>>>>> e6cf0aa1f8ab991eacb17da5350fc36c82276750
     cin.ignore();
     cout<<"Enter Book 1 Title:";
     getline(cin,title1);
