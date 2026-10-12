@@ -25,20 +25,21 @@ int main()
     cin>>id3;
 
     cin.ignore();
-    cout<<"Enter Book 3 Title:";
+    cout<<"Enter Book 3 Title:\n";
+    getline(cin,title3);
 
 //Display books
 
-    cout<<"/n====LIBRARY BOOKS====";
+    cout<<"\n====LIBRARY BOOKS====\n";
 
-    cout<<"/nBook ID:"<<id1;
-    cout<<"/nBook Title:"<<title1;
+    cout<<"\nBook ID:"<<id1;
+    cout<<"\nBook Title:"<<title1;
 
-    cout<<"/nBook ID:"<<id2;
-    cout<<"/nBook Title:"<<title2;
+    cout<<"\nBook ID:"<<id2;
+    cout<<"\nBook Title:"<<title2;
 
-    cout<<"/nBook ID:"<<id3;
-    cout<<"/nBook Title:"<<title3;
+    cout<<"\nBook ID:"<<id3;
+    cout<<"\nBook Title:"<<title3;
 
     return 0;
 
