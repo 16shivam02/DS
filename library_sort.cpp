@@ -4,7 +4,6 @@ using namespace std;
 int main()
 {
     int book [5];
-    int searchID;
 
     cout << "Enter 5 Book IDs:";
     for (int i=0;i<5;i++)
@@ -12,8 +11,7 @@ int main()
         cin >> book[i];
     }
 
-    cout << "Enter Book IDs to search:";
-    cin >> searchID;
+    
     for (int i=0;i<4;i++)
     {
         for (int j=0;j<5-i-1;j++)
@@ -29,7 +27,7 @@ int main()
     cout<<"ORDER=";
     for (int i=0;i<5;i++)
     {
-        cout << book[i] << "";
+        cout << book[i] << " ";
     }
     return 0;
 }
